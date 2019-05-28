@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="menu.css">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("Toscana/4.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("Toscana/3.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("Toscana/2.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+</head>
+<body>
+<div id='cssmenu'>
+<ul>
+   
+<li class='active'><a href='inicio.html'>
+<span>Inicio</span></a></li>
+   
+<li class='has-sub'><a href='#'><span>Ciudades Turisticas</span></a>
+      
+<ul>
+         <li class='has-sub'><a href='bariloche.html'><span>Bariloche</span></a></li>
+
+        
+
+        
+ <li><a href='paris.html'><span>Paris</span></a></li>
+
+ <li><a href='roma.html'><span>Roma</span></a></li>
+
+ <li><a href='alpes.html'><span>Alpes Suizos</span></a></li>
+ </ul>
+
+  
+
+ </div>
+
+<div class="bgimg-1">
+  <div class="caption">
+    
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Informacion</h3>
+  <p> Toscana es una región del centro de Italia. Su capital, Florencia, alberga algunas de las obras de arte y arquitectura renacentistas más reconocibles, incluida la estatua de "David" de Miguel Ángel y la catedral de Santa María de la Flor. Su variado paisaje natural abarca los escabrosos montes Apeninos, las playas de la isla de Elba en el mar Tirreno, y los olivares y viñedos de Chia. Sus 397 km de costa están bañados por el mar de Liguria en el tramo centro-septentrional entre Carrara (junto a la desembocadura del torrente Parmignola, limítrofe con la Liguria) y el golfo de Baratti; y el mar Tirreno baña a su vez el tramo costero meridional entre el promontorio de Piombino y la desembocadura del Chiarone, que marca el límite con el Lacio.</p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+   
+  </div>
+</div>
+
+
+</div>
+<video src="toscana.mp4"  width="100%" autoplay muted loop ></video>
+</body>
+</html>

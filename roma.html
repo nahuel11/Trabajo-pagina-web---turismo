@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="menu.css">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("Roma/4.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("Roma/3.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("Roma/2.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+</head>
+<body>
+<div id='cssmenu'>
+<ul>
+   
+<li class='active'><a href='inicio.html'>
+<span>Inicio</span></a></li>
+   
+<li class='has-sub'><a href='#'><span>Ciudades Turisticas</span></a>
+      
+<ul>
+         <li class='has-sub'><a href='bariloche.html'><span>Bariloche</span></a></li>
+
+        
+<li><a href='toscana.html'><span>La Toscana</span></a></li>
+        
+ <li><a href='paris.html'><span>Paris</span></a></li>
+
+
+ <li><a href='alpes.html'><span>Alpes Suizos</span></a></li>
+ </ul>
+
+
+ </div>
+
+<div class="bgimg-1">
+  <div class="caption">
+    
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Informacion</h3>
+  <p>Roma, la capital de Italia, es una extensa ciudad cosmopolita que tiene a la vista casi 3,000 años de arte, arquitectura y cultura de influencia mundial. Las ruinas antiguas como las del Foro y el Coliseo evocan el poder del antiguo Imperio Romano. La ciudad del Vaticano, sede central de la Iglesia católica romana, cuenta con la Basílica de San Pedro y los Museos del Vaticano, que albergan obras maestras como los frescos de la Capilla Sixtina de Miguel Ángel.
+  Es la ciudad con la más alta concentración de bienes históricos y arquitectónicos del mundo;4​ su centro histórico delimitado por el perímetro que marcan las murallas aurelianas, superposición de huellas de tres milenios, es la expresión del patrimonio histórico, artístico y cultural del mundo occidental europeo. En 1980, junto a las propiedades extraterritoriales de la Santa Sede que se encuentran en la ciudad y la basílica de San Pablo Extramuros, fue incluida en la lista del Patrimonio de la Humanidad de la Unesco.
+  Roma es el corazón geográfico de la religión católica y destino de peregrinación (vías romeas) y también la única ciudad del mundo que tiene en su interior un Estado extranjero: el enclave de la Ciudad del Vaticano, que se encuentra bajo el poder temporal del papa.8​ Por tal motivo se le ha conocido también como la capital de dos Estados.</p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+   
+  </div>
+</div>
+
+
+</div>
+
+<video src="roma.mp4"  width="100%" autoplay muted loop ></video>
+</body>
+</html>
